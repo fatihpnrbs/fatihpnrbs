@@ -13,6 +13,8 @@
 
 - 🌅 When I'm sad, I like to watch the sunset.
 
+- 🎧 Music is my soul.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://linkedin.com/in/fatihpb" target="blank" title="LinkedIn">
