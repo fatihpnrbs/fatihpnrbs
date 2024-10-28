@@ -1,7 +1,7 @@
 ![MasterHead](https://wallpapers.com/images/hd/sea-sunset-full-screen-desktop-bpaz7ltpr4alkcc8.jpg)
 
-<h1 align="center">Hi 👋, I'm Fatih</h1>
-<h3 align="center">I am a software student</h3>
+<h2 align="left">Hi 👋, I'm Fatih</h2>
+<h4 align="left">I am a software student</h4>
 
 - 🚀 I’m currently learning **Python, Cybersecurity, Frontend Development, C#, MS SQL**
 
