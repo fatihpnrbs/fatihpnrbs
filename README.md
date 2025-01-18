@@ -1,4 +1,4 @@
-![MasterHead](https://wallpapers.com/images/hd/sea-sunset-full-screen-desktop-bpaz7ltpr4alkcc8.jpg)
+![MasterHead](https://singularityhub.com/uploads/2024/07/mars-terraform.jpeg?auto=webp)
 
 <h2 align="left">Hi 👋, I'm Fatih</h2>
 <h4 align="left">I am a software student</h4>
