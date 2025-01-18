@@ -1,4 +1,4 @@
-![MasterHead](https://singularityhub.com/uploads/2024/07/mars-terraform.jpeg?auto=webp)
+![MasterHead](https://img.freepik.com/premium-photo/sun-setting-rough-sea_204719-1010.jpg?w=1380)
 
 <h2 align="left">Hi 👋, I'm Fatih</h2>
 <h4 align="left">I am a software student</h4>
