@@ -13,6 +13,9 @@
 
 - 🎧 Music is my soul.
 
+- 💻 I solve problems on [LeetCode](https://leetcode.com/u/Nezu-Dev/).
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://linkedin.com/in/fatihpb" target="blank" title="LinkedIn">
