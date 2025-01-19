@@ -3,8 +3,6 @@
 <h2 align="left">Hi 👋, I'm Fatih</h2>
 <h4 align="left">I am a software student</h4>
 
-- 🚀 I’m currently learning **Python, Backend Development, Frontend Development**
-
 - 🔗 I’m looking for help with **Web Development**
 
 - 📫 How to reach me **fthpnrbsinfo@gmail.com**
@@ -26,7 +24,7 @@
 </p>
 
 <!-- Yeni Başlık: Aktif Öğrendiğim Diller ve Araçlar -->
-<h3 align="left">Languages And Tools I'm Currently Learning</h3>
+<h3 align="left">I'm Currently Learning</h3>
 <p align="left">
   <!-- CSS -->
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" title="CSS3">
@@ -99,6 +97,26 @@
   </a>
 </p>
 
+<!-- C# -->
+  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer" title="C#">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+      alt="csharp"
+      width="40"
+      height="40"
+    />
+  </a>
+  
+   <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer" title="MS SQL Server">
+    <img 
+      src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" 
+      alt="ms-sql" 
+      width="40" 
+      height="40" 
+    />
+  </a>
+</p>
+
 <!-- Var Olan Başlık: Languages and Tools -->
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
@@ -131,18 +149,6 @@
       height="40" 
     />
   </a>
-
-  <!-- MS SQL Server -->
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer" title="MS SQL Server">
-    <img 
-      src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" 
-      alt="ms-sql" 
-      width="40" 
-      height="40" 
-    />
-  </a>
-</p>
-
 
 <p>
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nezu-dev&show_icons=true&locale=en&layout=compact&theme=dark" alt="nezu-dev" />
