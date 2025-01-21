@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **fthpnrbsinfo@gmail.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/fatihpb/](https://www.linkedin.com/in/fatihpb/)
+- 💼 You can learn more about my experiences on [LinkedIn](https://www.linkedin.com/in/fatihpb/).
 
 - 🌅 When I'm sad, I like to watch the sunset.
 
