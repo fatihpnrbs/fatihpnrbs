@@ -15,6 +15,8 @@
 
 - 💻 I solve problems on [LeetCode](https://leetcode.com/u/Nezu-Dev/).
 
+- 📝 You can find my notes on [Notion](https://fpnrbs.notion.site/plan-note).
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
