@@ -18,16 +18,6 @@
 - 📝 You can find my notes on [Notion](https://fpnrbs.notion.site/plan-note).
 
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/fatihpb" target="blank" title="LinkedIn">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fatihpb" height="30" width="40" />
-  </a>
-  <a href="https://medium.com/@mftpinarbasi" target="blank" title="Medium">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@mftpinarbasi" height="30" width="40" />
-  </a>
-</p>
-
 <!-- Yeni Başlık: Aktif Öğrendiğim Diller ve Araçlar -->
 <h3 align="left">I'm Currently Learning</h3>
 <p align="left">
