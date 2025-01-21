@@ -1,5 +1,3 @@
-![MasterHead](https://img.freepik.com/premium-photo/sunset-oregon-coast_1048944-10932881.jpg?w=1380)
-
 <h2 align="left">Hi 👋, I'm Fatih</h2>
 <h4 align="left">I am a software student</h4>
 
