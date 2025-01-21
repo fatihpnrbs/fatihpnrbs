@@ -7,15 +7,15 @@
 
 - 📫 How to reach me **fthpnrbsinfo@gmail.com**
 
-- 💼 You can learn more about my experiences on [LinkedIn](https://www.linkedin.com/in/fatihpb/).
+- 💼 You can learn more about my experiences on [LinkedIn](https://www.linkedin.com/in/fatihpb/)
 
 - 🌅 When I'm sad, I like to watch the sunset.
 
 - 🎧 Music is my soul.
 
-- 💻 I solve problems on [LeetCode](https://leetcode.com/u/Nezu-Dev/).
+- 💻 I solve problems on [LeetCode](https://leetcode.com/u/Nezu-Dev/)
 
-- 📝 You can find my notes on [Notion](https://fpnrbs.notion.site/plan-note).
+- 📝 You can find my notes on [Notion](https://fpnrbs.notion.site/plan-note)
 
 
 <!-- Yeni Başlık: Aktif Öğrendiğim Diller ve Araçlar -->
