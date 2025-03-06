@@ -11,9 +11,7 @@
 
 - 🎧 Music is my soul.
 
-- 💻 I solve problems on [LeetCode](https://leetcode.com/u/Nezu-Dev/)
 
-- 📝 You can find my notes on [Notion](https://fpnrbs.notion.site/plan-note)
 
 
 <!-- Yeni Başlık: Aktif Öğrendiğim Diller ve Araçlar -->
