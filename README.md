@@ -11,6 +11,8 @@
 
 - 🎧 Music is my soul.
 
+- 📝 You can find my notes on [Notion](https://fpnrbs.notion.site/plan-note)
+
 
 
 
