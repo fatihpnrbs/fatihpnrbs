@@ -7,7 +7,7 @@
 
 - 💼 You can learn more about my experiences on [LinkedIn](https://www.linkedin.com/in/fatihpb/)
 
-- 📝 You can find my notes on [Notion]((https://fatihpnrbs.notion.site/plan-note?source=copy_link))
+- 📝 You can find my notes on [Notion](https://fatihpnrbs.notion.site/plan-note)
 
 - 🌅 When I'm sad, I like to watch the sunset.
 
