@@ -126,3 +126,5 @@
     />
   </a>
 </p>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=fatihpnrbs&theme=highcontrast&hide_border=true&card_width=300&hide_total_contributions=true&hide_longest_streak=true)](https://git.io/streak-stats) ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fatihpnrbs&theme=great-gatsby&show_icons=true)
