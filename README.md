@@ -62,13 +62,3 @@
 </p>
 
 <br>
-
-<div align="left">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=fatihpnrbs&theme=highcontrast&hide_border=true&card_width=300&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=fatihpnrbs&theme=great-gatsby&hide_icons=true&hide_border=true" alt="Anurag's GitHub stats" />
-  </a>
-</div>
