@@ -20,10 +20,12 @@ THEME = {
     "grade_B": "#e0af68",     # B notu rengi (Sarı)
 }
 
-# --- FONKSİYONLAR (Veri Çekme ve Hesaplama) ---
+# --- FONKSİYONLAR (Veri Çekme ve Hesaplama aynı kalıyor) ---
+
 def get_data():
     headers = {"Authorization": f"bearer {TOKEN}"}
     
+    # 1. Temel İstatistikler (REST API)
     try:
         rest_resp = requests.get(f"https://api.github.com/users/{USERNAME}", headers=headers)
         rest_resp.raise_for_status()
@@ -32,6 +34,7 @@ def get_data():
         print(f"REST API Hatası: {e}")
         return None
 
+    # 2. Streak ve Detaylı Veriler için GraphQL Sorgusu
     graphql_query = """
     query {
       user(login: "%s") {
@@ -119,13 +122,15 @@ def calculate_grade(data):
     else: grade, color, progress = "B", THEME['grade_B'], 40
     return grade, color, progress
 
-# --- YENİ SVG TASARIMI (Başlık ve 3 Blok Düzeni) ---
+# --- YENİ KÜÇÜLTÜLMÜŞ SVG TASARIMI ---
 def create_svg(data):
     grade, grade_color, progress_percent = calculate_grade(data)
     
+    # Yeni Kompakt Boyutlar
     WIDTH = 400
     HEIGHT = 160
     
+    # Halka İlerleme Hesabı (Daha küçük halka)
     radius = 30
     circumference = 2 * 3.14159 * radius
     dash_offset = circumference * (1 - progress_percent / 100)
@@ -133,7 +138,7 @@ def create_svg(data):
     svg = f"""
     <svg width="{WIDTH}" height="{HEIGHT}" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Ubuntu, sans-serif">
         <style>
-            .header {{ font-weight: 700; font-size: 18px; fill: {THEME['text']}; text-anchor: middle; }}
+            .header {{ font-weight: 700; font-size: 16px; fill: {THEME['text']}; }}
             .stat-label {{ font-size: 12px; fill: {THEME['stat_text']}; font-weight: 500; }}
             .stat-value {{ font-size: 12px; fill: {THEME['text']}; font-weight: 700; }}
             .icon {{ fill: {THEME['icon']}; }}
@@ -148,9 +153,9 @@ def create_svg(data):
         
         <rect x="0.5" y="0.5" width="{WIDTH-1}" height="{HEIGHT-1}" class="box"/>
         
-        <text x="{WIDTH/2}" y="30" class="header">Github İstatistiklerim</text>
+        <text x="20" y="30" class="header">@{data['username']}'in İstatistikleri</text>
 
-        <g transform="translate(25, 60)">
+        <g transform="translate(20, 55)">
             <g transform="translate(0, 0)">
                 <svg class="icon" width="14" height="14" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>
                 <text x="20" y="11" class="stat-label">Yıldızlar:</text>
@@ -166,11 +171,16 @@ def create_svg(data):
                 <text x="20" y="11" class="stat-label">PR'lar:</text>
                 <text x="85" y="11" class="stat-value">{data['prs']}</text>
             </g>
+            <g transform="translate(0, 66)">
+                <svg class="icon" width="14" height="14" viewBox="0 0 16 16"><path d="M8 8a3 3 0 100-6 3 3 0 000 6zm2-3a2 2 0 11-4 0 2 2 0 014 0zm4 8c0 1.1-1.567 2-5 2S2 14.1 2 13c0-1.224 1.688-2.5 5-2.5 3.312 0 5 1.276 5 2.5zM8 11.5c-2.952 0-4 1.047-4 1.5 0 .453 1.048 1.5 4 1.5 2.952 0 4-1.047 4-1.5 0-.453-1.048-1.5-4-1.5z"/></svg>
+                <text x="20" y="11" class="stat-label">Takipçiler:</text>
+                <text x="85" y="11" class="stat-value">{data['followers']}</text>
+            </g>
         </g>
 
-        <line x1="145" y1="50" x2="145" y2="135" stroke="{THEME['ring_bg']}" stroke-width="1"/>
+        <line x1="160" y1="50" x2="160" y2="135" stroke="{THEME['ring_bg']}" stroke-width="1"/>
 
-        <g transform="translate(180, 60)">
+        <g transform="translate(205, 55)">
             <svg class="streak-icon" x="10" y="-5" width="30" height="30" viewBox="0 0 24 24">
                 <path d="M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11zm0-22C17.523 2 22 6.477 22 12s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z" fill-opacity="0.2"/>
                 <path d="M15.64 14.732a3.425 3.425 0 01-1.23 2.082 3.426 3.426 0 01-3.052.54c.49-.664.988-1.88.477-2.99-1.025-2.228-3.068-2.49-2.85-5.16.12-1.45 1.028-2.555 1.965-3.393C12.845 4.076 13.35 2 13.35 2s.964 1.844.588 4.098c-.377 2.256-2.297 3.366-2.297 3.366s1.134.118 2.013 1.056c.88.938 1.463 2.255 1.986 4.212zM9.5 18.5l.006-.001c-.002.001-.004.001-.006.001z"/>
@@ -179,7 +189,7 @@ def create_svg(data):
             <text x="25" y="65" class="streak-label" text-anchor="middle">GÜNLÜK SERİ</text>
         </g>
 
-        <line x1="270" y1="50" x2="270" y2="135" stroke="{THEME['ring_bg']}" stroke-width="1"/>
+        <line x1="280" y1="50" x2="280" y2="135" stroke="{THEME['ring_bg']}" stroke-width="1"/>
 
         <g transform="translate(335, 92)">
             <circle class="progress-ring-bg" cx="0" cy="0" r="{radius}"/>
@@ -195,7 +205,7 @@ def create_svg(data):
     with open("my-custom-stats.svg", "w", encoding="utf-8") as f:
         f.write(svg)
 
-# --- ANA BLOK ---
+# --- ANA BLOG ---
 if __name__ == "__main__":
     if not TOKEN:
         print("HATA: GH_TOKEN environment variable'ı bulunamadı!")
