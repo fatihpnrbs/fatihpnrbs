@@ -24,6 +24,8 @@ jobs:
         run: pip install requests
 
       - name: Scripti Çalıştır
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # <-- YENİ KISIM: Token'ı script'e veriyoruz
         run: python stats.py
 
       - name: Değişiklikleri Kaydet
@@ -31,5 +33,5 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git add my-custom-stats.svg
-          git commit -m "İstatistikler güncellendi" || echo "Değişiklik yok"
+          git commit -m "İstatistikler ve Streak güncellendi" || echo "Değişiklik yok"
           git push
