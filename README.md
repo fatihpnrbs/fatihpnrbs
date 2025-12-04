@@ -62,3 +62,5 @@
 </p>
 
 <br>
+
+![Fatih'in İstatistikleri](./my-custom-stats.svg)
