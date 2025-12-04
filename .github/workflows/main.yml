@@ -1,0 +1,35 @@
+name: Update Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Her gece çalış
+  workflow_dispatch: # Manuel tetikleme butonu
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Repoyu Çek
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install requests
+
+      - name: Scripti Çalıştır
+        run: python stats.py
+
+      - name: Değişiklikleri Kaydet
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add my-custom-stats.svg
+          git commit -m "İstatistikler güncellendi" || echo "Değişiklik yok"
+          git push
