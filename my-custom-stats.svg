@@ -1,0 +1,20 @@
+
+    <svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
+        <style>
+            .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; }
+            .stat { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+            .box { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 10px; }
+            .line { stroke: #21262d; stroke-width: 1; }
+        </style>
+        
+        <rect x="1" y="1" width="398" height="148" class="box"/>
+        
+        <text x="25" y="35" class="header">@fatihpnrbs GitHub İstatistikleri</text>
+        <line x1="25" y1="50" x2="375" y2="50" class="line"/>
+
+        <text x="25" y="80" class="stat">📦 Public Repos: 6</text>
+        <text x="200" y="80" class="stat">👥 Followers: 4</text>
+        <text x="25" y="110" class="stat">📅 Katıldı: 2022</text>
+        <text x="200" y="110" class="stat">🧬 Public Gists: 0</text>
+    </svg>
+    
