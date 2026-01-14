@@ -37,7 +37,7 @@
             <g transform="translate(0, 66)">
                 <svg class="icon" width="14" height="14" viewBox="0 0 16 16"><path d="M8 8a3 3 0 100-6 3 3 0 000 6zm2-3a2 2 0 11-4 0 2 2 0 014 0zm4 8c0 1.1-1.567 2-5 2S2 14.1 2 13c0-1.224 1.688-2.5 5-2.5 3.312 0 5 1.276 5 2.5zM8 11.5c-2.952 0-4 1.047-4 1.5 0 .453 1.048 1.5 4 1.5 2.952 0 4-1.047 4-1.5 0-.453-1.048-1.5-4-1.5z"/></svg>
                 <text x="20" y="11" class="stat-label">Takipçiler:</text>
-                <text x="85" y="11" class="stat-value">4</text>
+                <text x="85" y="11" class="stat-value">5</text>
             </g>
         </g>
 
