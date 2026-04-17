@@ -1,10 +1,6 @@
 <h2 align="left">Hi 👋, I'm Fatih</h2>
 <h4 align="left">I am a software student</h4>
 
-<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=pnm4p7sjve7ydf132cz0n4v8g&redirect=true">
-  <img align="right" width="300" src="https://spotify-github-profile.kittinanx.com/api/view?uid=pnm4p7sjve7ydf132cz0n4v8g&cover_image=false&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false" alt="spotify-now-playing" />
-</a>
-
 - 🔗 I’m looking for help with **Web Development**
 
 - 📫 How to reach me **fthpnrbsinfo@gmail.com**
@@ -47,7 +43,7 @@
   <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer" title="C#">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40" />
   </a>
-   <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer" title="MS SQL Server">
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer" title="MS SQL Server">
     <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="ms-sql" width="40" height="40" />
   </a>
   <a href="https://www.figma.com/" target="_blank" rel="noreferrer" title="Figma">
@@ -60,7 +56,3 @@
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
   </a>
 </p>
-
-<br>
-
-![Fatih'in İstatistikleri](./my-custom-stats.svg)
